@@ -25,9 +25,10 @@
 
 (custom-theme-set-faces
  'zen-and-art
+ '(hl-line ((t (:inherit nil))))
  '(default ((t (:background "#191717" :foreground "#d2dec4"))))
  '(cursor ((t (:foreground "#a7a7a7"))))
- '(region ((t (:background "#3b3b3f"))))
+ '(region ((t (:background "#272727"))))
  '(fringe ((t (:background "#252323"))))
  '(border-color ((t (:background "#000000"))))
  '(cursor-color ((t (:background "#A7A7A7"))))
@@ -43,8 +44,8 @@
  '(font-lock-string-face ((t (:foreground "#5A7644"))))
  '(font-lock-doc-face ((t (:foreground "#DDFFD1"))))
  '(font-lock-type-face ((t (:italic t :foreground "#C6B032"))))
- '(font-lock-variable-name-face ((t (:foreground "#46657B"))))
- '(font-lock-warning-face ((t (:bold t :foreground "Pink"))))
+ '(font-lock-variable-name-face ((t (:foreground "#083454"))))
+ '(font-lock-warning-face ((t (:bold t :foreground "#003924"))))
  '(paren-face-match-light ((t (:background "#252323"))))
  '(highlight ((t (:background "darkolivegreen"))))
  '(italic ((t (:italic t))))
@@ -56,7 +57,7 @@
  '(isearch ((t (:background "#555555"))))
  '(zmacs-region ((t (:background "#555577"))))
  '(secondary-selection ((t (:background "#545459"))))
- '(flymake-errline ((t (:background "LightSalmon" :foreground "#000000"))))
+ '(flymake-errline ((t (:background "#54250f" :foreground "#000000"))))
  '(flymake-warnline ((t (:background "LightSteelBlue" :foreground "#000000"))))
  '(underline ((t (:underline t))))
  '(minibuffer-prompt ((t (:bold t :foreground "#ff6600")))))
